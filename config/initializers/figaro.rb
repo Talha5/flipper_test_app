@@ -7,3 +7,4 @@ unless Rails.env.test?
 end
 
 Figaro.require_keys(variables)
+# SERVER_URL=https://a9049493e30a.ngrok.io SECRET_KEY_BASE=lkansdknasjnbdjabdskjabjksdb PASSWORD_RESET_URL=https://a9049493e30a.ngrok.io

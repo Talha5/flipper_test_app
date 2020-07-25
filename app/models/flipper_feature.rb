@@ -1,0 +1,3 @@
+class FlipperFeature < ApplicationRecord
+
+end

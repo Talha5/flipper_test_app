@@ -27,4 +27,17 @@ class AdminUser < ApplicationRecord
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable,
          :recoverable, :rememberable, :trackable, :validatable
+
+  alias_method :flipper_id, :id
+
+  def admin?
+    true
+  end
 end
+
+FlipperFeature.create(key: 'stats')
+Flipper.register(:admins) { |thing| thing.admin? }
+feature = Flipper[:stats]
+feature.enable_group :admins
+admin = AdminUser.last
+feature.enabled? admin
