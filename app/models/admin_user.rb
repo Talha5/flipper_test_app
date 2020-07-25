@@ -35,9 +35,10 @@ class AdminUser < ApplicationRecord
   end
 end
 
-FlipperFeature.create(key: 'stats')
-Flipper.register(:admins) { |thing| thing.admin? }
-feature = Flipper[:stats]
-feature.enable_group :admins
-admin = AdminUser.last
-feature.enabled? admin
+# FlipperFeature.create(key: 'stats')
+# Flipper.register(:admins) { |thing| thing.admin? }
+# feature = Flipper[:stats]
+# feature.enable_group :admins
+# admin = AdminUser.last
+# feature.enabled? admin
+#

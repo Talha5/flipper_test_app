@@ -8,6 +8,10 @@ This template comes with:
 - Set your db credentials in database.yml
 - Install gems and bundler
 - Create database and migrate
+- Run rails console:
+```
+ SERVER_URL=https://a9049493e30a.ngrok.io SECRET_KEY_BASE=lkansdknasjnbdjabdskjabjksdb PASSWORD_RESET_URL=https://a9049493e30a.ngrok.io rails s
+```
 - Go into rails console and:
 
 ```
