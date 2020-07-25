@@ -5,6 +5,7 @@ Dummy rails app. It's based on Rails 6 and Ruby 2.6.
 ## Setup
 
 This template comes with:
+- Set your db credentials in database.yml
 - Install gems and bundler
 - Create database and migrate
 - Go into rails console and:
