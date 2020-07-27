@@ -10,7 +10,7 @@ This template comes with:
 - Create database and migrate
 - Run rails console:
 ```
- SERVER_URL=https://a9049493e30a.ngrok.io SECRET_KEY_BASE=lkansdknasjnbdjabdskjabjksdb PASSWORD_RESET_URL=https://a9049493e30a.ngrok.io rails s
+ SERVER_URL=https://a9049493e30a.ngrok.io SECRET_KEY_BASE=lkansdknasjnbdjabdskjabjksdb PASSWORD_RESET_URL=https://a9049493e30a.ngrok.io rails c
 ```
 - Go into rails console and:
 
