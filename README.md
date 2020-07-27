@@ -1,6 +1,6 @@
 # Flipper Test App
 
-Dummy rails app. It's based on Rails 6 and Ruby 2.6.
+Dummy rails app. It's based on Rails 6 and Ruby 2.6. No need for ngrok, these urls are dummy.
 
 ## Setup
 
