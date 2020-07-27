@@ -7,6 +7,7 @@ Dummy rails app. It's based on Rails 6 and Ruby 2.6. No need for ngrok, these ur
 This template comes with:
 - Set your db credentials in database.yml
 - Install gems and bundler
+- Checkout AdminUser model for configuration
 - Create database and migrate
 - Run rails console:
 ```
